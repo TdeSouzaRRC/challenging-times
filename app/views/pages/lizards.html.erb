@@ -1,0 +1,5 @@
+<h3>Number of Lizards</h3>
+<p><%= @number_of_lizards.to_s + " lizard" + if @number_of_lizards > '1' then "s" else "" end%></p>
+<% @number_of_lizards.to_i.times do %>
+    <%= "\u{1f40a}" %>
+<% end %>
