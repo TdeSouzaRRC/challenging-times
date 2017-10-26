@@ -1,13 +1,10 @@
-// Place all the styles related to the pages controller here.
+// Place all the styles related to the employees controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.nav_menu {
+.employee {
     border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 3px;
+    width: 300px;
     padding: 5px;
-}
-
-.nav_menu li{
-    display: inline;
-    margin-left: 10px;
 }

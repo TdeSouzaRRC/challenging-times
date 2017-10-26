@@ -1,0 +1,8 @@
+<div class="employee">
+    <% if(display_employee_link == true) %>
+        <p><b>Name:</b><%= link_to employee.name, employee_path(employee) %></p>
+    <% else %>
+        <p><b>Name:</b><%= employee.name %></p>    
+    <% end %>
+    <p><b>Phone:</b><%= employee.phone_number%></p>
+</div>

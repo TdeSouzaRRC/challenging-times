@@ -1,0 +1,5 @@
+<h2>Employees</h2>
+
+<% @employees.each do |employee| %>
+    <%= render partial: 'employee', object: employee, locals: {display_employee_link: true} %>
+<% end %>>
